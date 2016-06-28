@@ -1,0 +1,43 @@
+{
+    "author": "williamrchr@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "testwatchface",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "TestWatchFace",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/message",
+                    "name": "MESSAGE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/background",
+                    "name": "BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Gameplay",
+                    "name": "GAMEPLAY_BOLD_36",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "uuid": "15d00595-6483-4155-a587-d9436489af03",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
